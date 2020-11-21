@@ -2,8 +2,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
 /* font-family: 'Nunito', sans-serif; */
 
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
 img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* MAIN STYLE */
+.visually-hidden {
+  position: absolute;
+  left: -1000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+body {
+  font-family: 'Nunito', Helvetica, Arial sans-serif;
+  color: #222;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header-info {
+  background-color: #122AB2;
+  padding-top: 12px;
+}
+
+.header-info .container ul {
+  color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  justify-content: space-between;
+  text-align: center;
+}
+.header-info .container ul li {
+  margin: 0 10px 10px;
+  text-align: center;
+}
+
+.header-menu {
+  background-color: #2C70FF;
+  padding: 15px 0;
+}
+.header-menu .container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-menu .menu-logo {
+  color: #FFF;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+
+.header-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-nav ul a {
+  color: #FFF;
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.15s linear;
+}
+.header-nav ul a:hover {
+  color: #122AB2;
 }
