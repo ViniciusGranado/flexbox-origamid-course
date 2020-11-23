@@ -38,7 +38,7 @@ body {
 /* HEADER */
 .header-info {
   background-color: #122AB2;
-  padding-top: 12px;
+  padding-top: 13px;
 }
 
 .header-info .container ul {
@@ -47,16 +47,14 @@ body {
   flex-wrap: wrap;
   font-weight: bold;
   justify-content: space-between;
-  text-align: center;
 }
 .header-info .container ul li {
-  margin: 0 10px 10px;
-  text-align: center;
+  margin: 0 10px 12px;
 }
 
 .header-menu {
   background-color: #2C70FF;
-  padding: 15px 0;
+  padding: 19px 0;
 }
 .header-menu .container {
   align-items: center;
@@ -88,4 +86,47 @@ body {
 }
 .header-nav ul a:hover {
   color: #122AB2;
+}
+
+/* MAIN */
+.main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 50px 10px 60px;
+}
+
+/* SOBRE */
+.sobre {
+  border-bottom: 2px solid #2680EB;
+  border-top: 2px solid #2680EB;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  padding: 75px 0;
+}
+.sobre h2 {
+  flex-basis: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 30px
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin-right: 55px;
+  position: relative;
+  top: -10px;
+}
+.sobre-info p {
+  color: #7C7C7C;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin-left: 10px;
 }
