@@ -352,3 +352,17 @@ body {
   padding: 10px 35px;
   text-transform: uppercase;
 }
+
+/* FOOTER */
+.footer {
+  align-items: center;
+  background-color: #2C70FF;
+  display: flex;
+  height: 200px;
+}
+.footer p {
+  color: #122AB2;
+  flex: 1;
+  font-size: 2.25rem;
+  text-align: center;
+}
